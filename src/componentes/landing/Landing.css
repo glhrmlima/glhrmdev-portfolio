@@ -1,0 +1,64 @@
+.landing-section {
+    background-color: var(--cor-cinza);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    background-image: url(../../assets/imagens/dot-bg.png);
+    background-size: 20px;
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+}
+
+.landing-text {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    color: var(--cor-branco);
+}
+
+.landing-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 3.5lh;
+}
+
+.landing-text h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 3lh;
+    letter-spacing: .5ch;
+}
+
+.landing-text p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+    margin: 15px 0;
+}
+
+.text-highlight {
+    color: var(--cor-amarelo);
+    font-weight: 600;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+}
+
+.landing-img img {
+    width: 540px;
+}
